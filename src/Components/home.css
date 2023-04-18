@@ -1,0 +1,90 @@
+.mainBox{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+}
+
+
+.leftBox{
+    background: #faebd7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.leftBox form{
+    background: rgb(250,235,215);
+background: linear-gradient(135deg, rgba(250,235,215,1) 31%, rgba(218,148,233,0.804359243697479) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: auto;
+    width: 16rem;
+    padding: 1rem;
+    
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 5px 10px 2px rgb(0, 0, 0, 0.5);
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+form select {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+form select option {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.rightBox{
+    background-color: #6495ed;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: .75rem;
+    column-gap: .75rem;
+    flex-wrap: wrap;
+    
+    overflow: auto;
+}
+
+.dataField{
+    width: 16rem;
+    height: 9rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 1rem;
+    
+    box-shadow: 0px 5px 10px 2px rgb(0, 0, 0, 0.5);
+    background: rgb(215,244,250);
+background: linear-gradient(135deg, rgba(215,244,250,1) 31%, rgba(148,203,233,0.804359243697479) 100%);
+}
+
+.dataField:hover{
+    transform: translateY(-0.5rem);
+}
