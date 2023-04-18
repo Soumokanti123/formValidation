@@ -2,7 +2,7 @@
   "name": "formvalidation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.com/Soumokanti123/formValidation",
+  "homepage": "http://soumokanti123.github.io/formValidation/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
